@@ -93,6 +93,24 @@ Each dataset contains:
 
 ## Usage
 
+### 🎥 Streamlit GUI Demo
+
+Watch the interactive Streamlit interface in action:
+
+https://github.com/user-attachments/assets/your-video-id-here.mp4
+
+> **Note**: Replace the video link above with your actual video. To add a video:
+> 1. Go to any GitHub issue or PR in your repository
+> 2. Drag and drop your video file (`.mp4`, `.mov`, etc.)
+> 3. GitHub will upload it and provide a link like `https://github.com/user-attachments/assets/...`
+> 4. Copy that link and replace the placeholder above
+
+Alternatively, you can embed from YouTube:
+
+[![Streamlit GUI Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+---
+
 ### Option 1: Streamlit GUI (Recommended)
 
 Launch the interactive web interface:
