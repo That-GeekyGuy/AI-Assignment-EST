@@ -97,77 +97,8 @@ Each dataset contains:
 
 Watch the interactive Streamlit interface in action:
 
-https://github.com/user-attachments/assets/your-video-id-here.mp4
+Arc 2025-11-08 23-31-52.mp4
 
-> **Note**: Replace the video link above with your actual video. To add a video:
-> 1. Go to any GitHub issue or PR in your repository
-> 2. Drag and drop your video file (`.mp4`, `.mov`, etc.)
-> 3. GitHub will upload it and provide a link like `https://github.com/user-attachments/assets/...`
-> 4. Copy that link and replace the placeholder above
-
-Alternatively, you can embed from YouTube:
-
-[![Streamlit GUI Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
----
-
-### Option 1: Streamlit GUI (Recommended)
-
-Launch the interactive web interface:
-
-```bash
-streamlit run streamlit_app.py
-```
-
-The GUI provides:
-- Interactive data exploration
-- Model training with real-time progress
-- Prediction generation
-- Comprehensive evaluation and visualizations
-- Easy configuration through sidebar
-
-See [STREAMLIT_README.md](STREAMLIT_README.md) for detailed GUI documentation.
-
-### Option 2: Command Line Interface
-
-Run the main script with default parameters (uses FD001 dataset):
-
-```bash
-python main.py --create_diagram
-```
-
-### Command Line Arguments
-
-- `--data_path`: Path to data directory (default: `CMAPSSData`)
-- `--dataset`: Dataset to use - `FD001`, `FD002`, `FD003`, or `FD004` (default: `FD001`)
-- `--sequence_length`: Length of sequences for LSTM input (default: 50)
-- `--epochs`: Number of training epochs (default: 100)
-- `--batch_size`: Batch size for training (default: 32)
-- `--model_type`: Type of LSTM model - `lstm`, `bidirectional_lstm`, or `stacked_lstm` (default: `bidirectional_lstm`)
-- `--units`: Number of LSTM units (default: 64)
-- `--create_diagram`: Create flow diagram visualization
-
-### Example Commands
-
-**Train with default dataset (FD001)**:
-```bash
-python main.py --create_diagram
-```
-
-**Train with different dataset (FD002)**:
-```bash
-python main.py --dataset FD002 --create_diagram
-```
-
-**Train with custom parameters**:
-```bash
-python main.py --dataset FD001 --sequence_length 60 --epochs 150 --model_type stacked_lstm --units 128
-```
-
-**Generate flow diagram only**:
-```bash
-python main.py --create_diagram
-```
 
 ## Pipeline Overview
 
