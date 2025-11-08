@@ -1,0 +1,13 @@
+{
+  "dataset": "FD001",
+  "model_type": "bidirectional_lstm",
+  "input_shape": [
+    50,
+    21
+  ],
+  "units": 64,
+  "dropout_rate": 0.2,
+  "sequence_length": 50,
+  "description": "",
+  "created": "2025-11-08T23:29:03.854480"
+}
